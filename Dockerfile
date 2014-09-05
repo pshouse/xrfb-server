@@ -5,7 +5,6 @@ RUN apt-get -y install unzip wget python
 RUN apt-get -y install libreoffice-common
 RUN apt-get -y install firefox
 RUN apt-get -y install vnc4server
-RUN apt-get -y install xvnc
 
 RUN adduser guest
 
