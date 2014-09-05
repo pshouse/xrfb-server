@@ -15,4 +15,6 @@ RUN unzip XrfbFolder.zip
 
 RUN mv XrfbFolder/*
 
+EXPOSE 5899
+
 CMD ["nohup", "XrfbServer.py"]
