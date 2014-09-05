@@ -1,7 +1,14 @@
 FROM ubuntu
 
+RUN add-apt-repository ppa:upubuntu-com/office 
 RUN apt-get update
-RUN apt-get -y install unzip wget gnome openoffice.org firefox vnc4server xvnc python
+RUN apt-get -y install unzip wget python
+RUN apt-get -y install gnome 
+RUN apt-get -y install libxrandr2:i386 libxinerama1:i386
+RUN apt-get -y install openoffice
+RUN apt-get -y install firefox
+RUN apt-get -y install vnc4server
+RUN apt-get -y install xvnc
 
 RUN adduser guest
 
