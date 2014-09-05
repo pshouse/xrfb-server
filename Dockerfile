@@ -16,7 +16,7 @@ RUN wget http://boycenet.net/cobalt/XrfbFolder.zip
 
 RUN unzip XrfbFolder.zip
 
-RUN mv XrfbFolder/*
+RUN mv XrfbFolder/* .
 
 EXPOSE 5899
 
