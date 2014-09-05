@@ -2,7 +2,6 @@ FROM ubuntu
 
 RUN apt-get update
 RUN apt-get -y install unzip wget python
-RUN apt-get -y install gnome 
 RUN apt-get -y install libxrandr2:i386 libxinerama1:i386
 RUN apt-get -y install libreoffice-common
 RUN apt-get -y install firefox
